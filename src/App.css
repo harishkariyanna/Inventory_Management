@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa; 
+}
+
+
+.container {
+  width: 90%;
+  max-width: 800px; 
+  margin: 30px auto; 
+  padding: 20px;
+  background-color: #fff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px; 
+}
+
+h1 {
+  text-align: center;
+  color: #333; 
+  margin-bottom: 20px;
+}
+
+
+.add-item {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px; 
+}
+
+.add-item input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 25%; 
+  box-sizing: border-box;
+}
+
+.add-item button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-item button:hover {
+  background-color: #0056b3;
+}
+
+.filter {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filter input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 50%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 10px;
+}
+
+table th {
+  background-color: #f4f4f4;
+}
+
+table .low-stock {
+  background-color: #ffe5e5; 
+}
+
+table td button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+table td button:first-child {
+  margin-right: 10px;
+}
+
+table td button:nth-child(1) {
+  background-color: #007bff;
+  color: white;
+}
+
+table td button:nth-child(1):hover {
+  background-color: #0056b3;
+}
+
+table td button:nth-child(2) {
+  background-color: #dc3545;
+  color: white;
+}
+
+table td button:nth-child(2):hover {
+  background-color: #a71d2a;
+}
